@@ -28,6 +28,7 @@ public class CadastroPessoa extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+        jToggleButton1 = new javax.swing.JToggleButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -49,8 +50,11 @@ public class CadastroPessoa extends javax.swing.JFrame {
             .addGap(0, 100, Short.MAX_VALUE)
         );
 
+        jToggleButton1.setText("jToggleButton1");
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(0, 0, 0));
+        setTitle("Lucas Lammel");
+        setBackground(new java.awt.Color(51, 51, 51));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 0, 11)); // NOI18N
         jLabel1.setText("Código:");
@@ -64,7 +68,6 @@ public class CadastroPessoa extends javax.swing.JFrame {
         jLabel3.setText("Nome:");
 
         jTextField1.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
-        jTextField1.setText("Insira o código");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -72,7 +75,6 @@ public class CadastroPessoa extends javax.swing.JFrame {
         });
 
         jTextField2.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
-        jTextField2.setText("Insira o nome");
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
@@ -175,5 +177,6 @@ public class CadastroPessoa extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
+    private javax.swing.JToggleButton jToggleButton1;
     // End of variables declaration//GEN-END:variables
 }
